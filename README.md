@@ -31,7 +31,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 文件结构和路由
+## 文件和路由
 
 NextJS 使用基于文件系统的路由器，每个文件夹代表一个映射到URL的路由段。
 若要创建嵌套路由，只需在文件夹内部嵌套即可。
@@ -76,3 +76,18 @@ LEARN-NEXTJS:
 │      └──page.jsx
 
 ```
+
+## Layouts
+
+页面就是路由，具有唯一性。
+对于相同的部分可以定义为 Layout 复用
+
+- 根目录下的Layout，整个项目复用
+- 子目录下的Layout，只在子目录下复用
+
+常见使用：
+
+- loading: 项目加载时显示
+- not-found：项目未找到路径时显示
+- error: 项目出错时显示
+- 在blog目录下时，只会在 blog/* 下显示
