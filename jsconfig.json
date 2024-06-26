@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "paths": {
+      // 定义根目录src使用@代替，导包时@即可直接定位到src目录
       "@/*": ["./src/*"]
     }
   }

@@ -1,5 +1,5 @@
 const Home = () => {
-  return <div>Hello NextJS!</div>;
+  return <div>HomePage</div>;
 };
 
 export default Home;
