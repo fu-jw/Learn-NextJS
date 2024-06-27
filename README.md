@@ -168,3 +168,5 @@ import { useState } from "react";
   }
 }
 ```
+
+## Image
