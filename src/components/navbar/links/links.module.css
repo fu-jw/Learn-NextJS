@@ -10,16 +10,19 @@
   font-weight: bold;
 }
 
+/* 默认不显示按钮和小屏版链接 */
 .menuButton,
 .mobileLinks {
   display: none;
 }
 
+/* 屏幕缩小到 768px 时 */
 @media (max-width: 768px) {
+  /* 隐藏导航链接 */
   .links {
     display: none;
   }
-
+  /* 显示该菜单按钮 */
   .menuButton {
     display: block;
     cursor: pointer;
