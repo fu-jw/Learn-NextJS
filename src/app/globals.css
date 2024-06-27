@@ -1,0 +1,38 @@
+/* 定义一些变量 */
+:root{
+  --bg: #0d0c22;
+  --bgsoft: #2d2b42;
+  --text: white;
+  --textsoft: #e5e5e5e5;
+  --btn: #3673fd;
+}
+
+/* 初始化设置 */
+*{
+  margin: 0; /* 去除默认的外边距 */
+  padding: 0; /* 去除默认的内边距 */ 
+  box-sizing: border-box; /* 让元素的宽高包括 padding 和 border */
+}
+
+body{
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+a{
+  text-decoration: none;
+  color: inherit; /* 继承父元素，即上面的 body */
+}
+
+/* 响应式设置 */
+.container {
+  /* width: 1536px; */
+  width: 80%;
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
