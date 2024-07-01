@@ -46,7 +46,7 @@ NextJS 使用基于文件系统的路由器，每个文件夹代表一个映射�
 
 ![page-rout](https://image.fu-jw.com/img/2024/06/26/667bf0fa833e6.webp)
 
-项目文件结构如下：
+项目文件结构如下（App Router）：
 
 ```txt
 LEARN-NEXTJS:
