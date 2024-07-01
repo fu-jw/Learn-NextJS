@@ -1,5 +1,7 @@
 # Learn NextJS
 
+视频：https://www.youtube.com/watch?v=vCOSTG10Y4o
+
 ## Getting Started
 
 >- NextJS: 14
